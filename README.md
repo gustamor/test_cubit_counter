@@ -1,16 +1,33 @@
-# test_counter_cubit
+# Flutter Testing Concept with a Cubit Counter
 
-A counter with test
+This repository presents a proof of concept specifically centered on **testing Flutter applications** utilizing the Cubit (BloC) pattern for effective state management. The included source code in this repository is not just a demonstration of the possibility but provides a practical example on how to conduct tests for both the user interface (UI) and the business logic using bloc/cubit. It details the approach to testing a simple counter implemented with Cubit, offering a clear example of how to effectively test such a feature in a Flutter application.
 
-## Getting Started
+## Project Structure
 
-This project is a starting point for a Flutter application.
+The project is structured into two main parts:
 
-A few resources to get you started if this is your first Flutter project:
+### Widget Tests
+Focused on verifying the behavior of the user interface, including widgets and their interaction with the user.
+### Cubit Tests
+Dedicated to testing the business logic implemented using the Cubit pattern, ensuring that states are managed correctly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To execute and test this project, you will need:
+
+- Flutter SDK (recommended version: latest stable).
+- A Flutter-compatible IDE, such as Android Studio, IntelliJ, or VS Code.
+- An emulator or physical device to run the application.
+
+## Project Setup
+
+- Clone the repository to your local machine.
+- Open the project in your preferred IDE.
+- Run flutter pub get to install the necessary dependencies.
+
+## Test Execution
+
+### To run the tests:
+
+- Open a terminal at the root of the project.
+- Run the command flutter test to execute all included tests.
